@@ -1,0 +1,84 @@
+{
+	"nodes":[
+		{"id":"2f31d0b0b42c2cbf","type":"group","x":-940,"y":-580,"width":940,"height":440,"label":"Evidence Forensic Process "},
+		{"id":"82d0e10c4bb60247","type":"group","x":40,"y":-580,"width":460,"height":300,"label":"Evidence Types"},
+		{"id":"c1530d79839eb29c","type":"text","text":"```mermaid\ngraph TD\n\nCollection --> Examination --> Analysis --> Reporting --> Collection\n```","x":-920,"y":-560,"width":260,"height":400},
+		{
+			"id":"f5a2e2f5eb250d6a",
+			"type":"text",
+			"text":"1. **Collection** - Identifying the potential sources of forensic data and acquisition, handling and storage of that data. Special care must be taken not to damage, lose or omit important data.\n2. **Examination** - Assessing and extracting relevant information from the collected data. This can involve decompression and/or decryption of the data. Irrelevant information may be discarded.\n3. **Analysis** - Drawing conclusions from the data. Salient features should be documented. This step may also involve correlation of data from multiple sources.\n4. **Reporting** - Preparing and presenting information that resulted from the analysis. The report should be impartial and alternative explanations should be offered if appropriate. Limitations of the analysis and problems encountered should be included. Suggestions for further investigation and next steps should also be made./",
+			"styleAttributes":{},
+			"x":-660,
+			"y":-560,
+			"width":640,
+			"height":400
+		},
+		{
+			"id":"8f151c9157694f21",
+			"type":"text",
+			"text":"**Corroborating evidence** - Evidence that supports an assertion that is developed from best evidence",
+			"styleAttributes":{},
+			"x":60,
+			"y":-480,
+			"width":420,
+			"height":80
+		},
+		{
+			"id":"acffecc3f1003712",
+			"type":"text",
+			"text":"**Indirect evidence** - Evidence that in combination with other facts, establishes a hypothesis",
+			"styleAttributes":{},
+			"x":60,
+			"y":-380,
+			"width":420,
+			"height":80
+		},
+		{
+			"id":"32607ef9bdec8a79",
+			"type":"text",
+			"text":"**Best evidence** - Evidence in its original state ",
+			"styleAttributes":{},
+			"x":60,
+			"y":-560,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"fa916e34a0dfc3ae",
+			"type":"file",
+			"file":"Images/Pasted image 20261120140759.png",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-580,
+			"y":-80,
+			"width":325,
+			"height":400
+		},
+		{
+			"id":"8df868e39a72a515",
+			"type":"text",
+			"text":"Collect most volatile first then move towards least volatile.",
+			"styleAttributes":{},
+			"x":-920,
+			"y":60,
+			"width":260,
+			"height":120
+		}
+	],
+	"edges":[
+		{
+			"id":"42f7b9e2836a931c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"8df868e39a72a515",
+			"fromSide":"right",
+			"toNode":"fa916e34a0dfc3ae",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
