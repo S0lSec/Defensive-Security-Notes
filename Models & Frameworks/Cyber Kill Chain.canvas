@@ -7,11 +7,7 @@
 		{"id":"5faea3e0bbec2ca2","type":"group","x":320,"y":-543,"width":940,"height":390,"label":"Delivery"},
 		{"id":"eb1fca5dac11b4c4","type":"group","x":-1980,"y":-543,"width":940,"height":390,"label":"Explotation"},
 		{"id":"191712a1c8dd1b66","type":"group","x":-860,"y":440,"width":940,"height":360,"label":"Actions on Objectives"},
-		{"id":"d9ff3dd155bb0ec7","type":"text","text":"# Weaponisation\nPairing remote malware to create a paylaod.","x":-280,"y":-750,"width":334,"height":146},
-		{"id":"77f47681e421bb24","type":"text","text":"# Recon\nResearching the target to find out information.","x":-840,"y":-744,"width":334,"height":134},
-		{"id":"94af40e263e1f9cc","type":"text","text":"# Delivery\nDelivering weapon to victim through email or other means.","x":-280,"y":-410,"width":334,"height":140},
-		{"id":"d22eed8e75e0a4fc","type":"text","text":"# Installation\nInstallation of backdoor on target to install malware and obtain persistance.","x":-850,"y":-100,"width":354,"height":140},
-		{"id":"3e46cf0d34735ab7","type":"text","text":"# Command & Control (C2)\nOutside server command channel is created to manipulate target.","x":-280,"y":-100,"width":354,"height":140},
+		{"id":"77f47681e421bb24","type":"text","text":"# Reconnaissance\nResearching the target to find out information.","x":-840,"y":-744,"width":334,"height":134},
 		{
 			"id":"1513d45e599336fb",
 			"type":"text",
@@ -32,6 +28,39 @@
 			"width":420,
 			"height":341
 		},
+		{"id":"8b3df30b894a145f","type":"text","text":"# Exploitation\nExecute code on vulnerable system by triggering the code.","x":-840,"y":-410,"width":334,"height":140},
+		{
+			"id":"d5270d64ab35a1ce",
+			"type":"text",
+			"text":"## Adversary Tactics\nPrepare and stage the operation:\n- Obtain an automated tool to deliver the malware payload\n- Select or create a document to present to the victim\n- Select or create a backdoor and command and control infrastructure",
+			"styleAttributes":{},
+			"x":340,
+			"y":-1053,
+			"width":420,
+			"height":347
+		},
+		{
+			"id":"c46a14fca67d138a",
+			"type":"text",
+			"text":"## SOC Defences\nTrain employees, secure code and harden devices:\n- Employee security awareness training and periodic email testing\n- Web developer training for securing code\n- Regular vulnerability scanning and penetration testing\n- Endpoint hardening measures\n- Endpoint auditing to forensically determine origin of exploit",
+			"styleAttributes":{},
+			"x":-1480,
+			"y":-517,
+			"width":420,
+			"height":341
+		},
+		{
+			"id":"81cfbae32c999962",
+			"type":"text",
+			"text":"## Adversary Tactics\nExploit a vulnerability to gain access:\n- Use software, hardware or human vulnerability\n- Acquire or develop the exploit\n- Use an adversary-triggered exploit for server vulnerabilities\n- Use a victim-triggered exploit such as opening an email attachment",
+			"styleAttributes":{},
+			"x":-1960,
+			"y":-517,
+			"width":420,
+			"height":341
+		},
+		{"id":"d9ff3dd155bb0ec7","type":"text","text":"# Weaponisation\nPairing remote malware to create a paylaod.","x":-280,"y":-750,"width":334,"height":146},
+		{"id":"d22eed8e75e0a4fc","type":"text","text":"# Installation\nInstallation of backdoor on target to install malware and obtain persistance.","x":-850,"y":-100,"width":354,"height":140},
 		{
 			"id":"71aca3b06ace4746",
 			"type":"text",
@@ -73,17 +102,6 @@
 			"height":320
 		},
 		{"id":"1d522ed3881e1c07","type":"text","text":"# Actions on Objectives \nExecute actions to reach their goal.","x":-580,"y":200,"width":374,"height":120},
-		{"id":"8b3df30b894a145f","type":"text","text":"# Exploitation\nExecute code on vulnerable system by triggering the code.","x":-840,"y":-410,"width":334,"height":140},
-		{
-			"id":"d5270d64ab35a1ce",
-			"type":"text",
-			"text":"## Adversary Tactics\nPrepare and stage the operation:\n- Obtain an automated tool to deliver the malware payload\n- Select or create a document to present to the victim\n- Select or create a backdoor and command and control infrastructure",
-			"styleAttributes":{},
-			"x":340,
-			"y":-1053,
-			"width":420,
-			"height":347
-		},
 		{
 			"id":"56267aa0072230b7",
 			"type":"text",
@@ -94,6 +112,8 @@
 			"width":420,
 			"height":347
 		},
+		{"id":"94af40e263e1f9cc","type":"text","text":"# Delivery\nDelivering weapon to victim through email or other means.","x":-280,"y":-410,"width":334,"height":140},
+		{"id":"3e46cf0d34735ab7","type":"text","text":"# Command & Control (C2)\nOutside server command channel is created to manipulate target.","x":-280,"y":-100,"width":354,"height":140},
 		{
 			"id":"1d27e311fcf61b5b",
 			"type":"text",
@@ -130,26 +150,6 @@
 			"text":"## SOC Defences\nBlock delivery of malware:\n- Analyse the infrastructure path used for delivery\n- Understand targeted servers, people and data available to attack\n- Infer intent of the adversary based on targeting\n- Collect email and web logs for forensic reconstruction",
 			"styleAttributes":{},
 			"x":820,
-			"y":-517,
-			"width":420,
-			"height":341
-		},
-		{
-			"id":"c46a14fca67d138a",
-			"type":"text",
-			"text":"## SOC Defences\nTrain employees, secure code and harden devices:\n- Employee security awareness training and periodic email testing\n- Web developer training for securing code\n- Regular vulnerability scanning and penetration testing\n- Endpoint hardening measures\n- Endpoint auditing to forensically determine origin of exploit",
-			"styleAttributes":{},
-			"x":-1480,
-			"y":-517,
-			"width":420,
-			"height":341
-		},
-		{
-			"id":"81cfbae32c999962",
-			"type":"text",
-			"text":"## Adversary Tactics\nExploit a vulnerability to gain access:\n- Use software, hardware or human vulnerability\n- Acquire or develop the exploit\n- Use an adversary-triggered exploit for server vulnerabilities\n- Use a victim-triggered exploit such as opening an email attachment",
-			"styleAttributes":{},
-			"x":-1960,
 			"y":-517,
 			"width":420,
 			"height":341

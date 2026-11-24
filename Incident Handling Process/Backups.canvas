@@ -15,5 +15,9 @@
 		{"id":"49dd49636c95815b","fromNode":"bea726b8c090b656","fromSide":"right","toNode":"4ae210405644e630","toSide":"left"},
 		{"id":"82f65661eb5abe5c","fromNode":"bea726b8c090b656","fromSide":"left","toNode":"08c08237692bcc00","toSide":"right"},
 		{"id":"10cf97031ea0116d","fromNode":"bea726b8c090b656","fromSide":"left","toNode":"84cf043150365396","toSide":"right"}
-	]
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

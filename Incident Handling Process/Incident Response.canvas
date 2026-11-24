@@ -1,0 +1,71 @@
+{
+	"nodes":[
+		{"id":"10d0f1ab6719f5ba","type":"group","x":-1280,"y":-360,"width":1580,"height":640,"label":"Establishing an IR Capability"},
+		{
+			"id":"dfa5a64bc5abaf92",
+			"type":"text",
+			"text":"## Plan Elements\nA good IR plan helps minimise damage caused.\n\nIt should include:\n  - Mission\n  - Strategies and goals\n  - Senior management approval\n  - Organisational approach to IR\n  - How the IR team will communicate with the rest of the organisation and with other organisations\n  - Metrics for measuring the incident response capability\n  - How the program fits into overall organisation",
+			"styleAttributes":{},
+			"x":-180,
+			"y":-200,
+			"width":460,
+			"height":460
+		},
+		{"id":"c61125f89114adc3","type":"file","file":"Models & Frameworks/NIST IR Life Cycle.canvas","portal":true,"x":400,"y":-340,"width":2340,"height":1355},
+		{
+			"id":"20b51fc8bb0cd776",
+			"type":"text",
+			"text":"## Policy Elements\nIR policies detail how incidents should be handled based on the orgs mission, size and function.\n\nThey should include:\n- Statement of management commitment\n- Purpose and objectives of the policy\n- Scope of the policy\n- Definition of computer security incidents and related terms\n- Organisational structure and definition of roles, responsibilities and levels of authority\n- Prioritisation of severity ratings of incidents\n- Performance measures\n- Reporting and contact forms",
+			"styleAttributes":{},
+			"x":-710,
+			"y":-200,
+			"width":460,
+			"height":460
+		},
+		{
+			"id":"fce7e2d0dacd465d",
+			"type":"text",
+			"text":"## Procedure Elements\nStep-by-step instructions used when executing the IR plan\n\nThey should contain:\n- Technical processes\n- Using techniques\n- Filling out forms\n- Following checklists",
+			"styleAttributes":{},
+			"x":-1250,
+			"y":-200,
+			"width":460,
+			"height":460
+		},
+		{
+			"id":"b669ea85b20e5279",
+			"type":"text",
+			"text":"## Resources\n[NIST SP 801-61 R3](https://csrc.nist.gov/pubs/sp/800/61/r3/final)",
+			"styleAttributes":{},
+			"x":-1250,
+			"y":-340,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"9eebe39ab0ae60fa",
+			"type":"text",
+			"text":"## Cybersecurity Maturity Model Certification\n### (CMMC)\nA framework created to assess the ability of organisations that perform functions for the U.S Department of Defence. (Was created because NIST standards were not sufficient against nation-state threat actors).\n\nCMMC has 17 domains, one being IR.\nThe capabilities that are associated with the IR domain are:\n- Plan incident response\n- Detect and report events\n- Develop and implement a response to declared incident\n- Perform post incident reviews\n- Test incident response\n\nThe CMMC certified organisations by levels. For most domains there are 5 levels but for IR there are only 4.\n- Level 2 - Establish an IR plan that follows the NIST process\n- Level 3 - Document and report incidents to stakeholders that have been identified in the IR plan and test the incident response capability of the org\n- Level 4 - Use knowledge of attacker tactics, techniques and procedures (TTP) to refine IR planning and execution. Establish a SOC that operates 24/7 response capability\n- Level 5 - Utilise accepted and systematic computer forensic data gather techniques including the secure handling and storage of forensic data. Develop and utilise manual and automated real-time responses to potential incidents that follow known patterns.\n\n",
+			"styleAttributes":{},
+			"x":-480,
+			"y":325,
+			"width":760,
+			"height":800
+		},
+		{
+			"id":"43021a450bd29638",
+			"type":"text",
+			"text":"## Stakeholders\n#### Management\n- Create policies\n- Design budget\n- Coordinate with IR + stakeholders to minimise damage\n#### Information Assurance\n- May be required to change things (such as firewall rules)\n#### IT Support\n- Perform corrective actions\n- Preserve evidence\n#### Legal Department\n- Reviews IR plans, policies and procedures\n#### Public Affairs and Media Relations\n- Handles public and media if reputation is at risk\n#### Human Resources\n- Performs disciplinary measures if required\n#### Business Continuity Planners\n- Make changes to plans and risk assessments if required\n#### Physical Security and Facilities Management\n- Handles physical security\n- Secures facilities that contains evidence\n",
+			"styleAttributes":{},
+			"x":-1250,
+			"y":325,
+			"width":760,
+			"height":800
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
